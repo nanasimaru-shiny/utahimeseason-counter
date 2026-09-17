@@ -1,0 +1,50 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  transition: background-color 0.15s ease;
+
+  font-family: "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  text-align: center;
+  line-height: 1.05;
+}
+
+.season {
+  font-size: clamp(32px, 8vw, 80px);
+  font-weight: 600;
+}
+
+.weeks {
+  margin-top: 3px;
+  font-size: clamp(32px, 8vw, 80px);
+  font-weight: 600;
+}
+
+.week-number {
+  font-size: 1.55em;
+  margin-left: 0.15em;
+  margin-right: 0.15em;
+}
+
+.amount {
+  margin-top: 0.65em;
+  font-size: clamp(42px, 10vw, 100px);
+  font-weight: 600;
+  color: red;
+}
