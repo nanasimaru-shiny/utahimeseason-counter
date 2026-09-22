@@ -27,13 +27,13 @@ function updateDisplay() {
   // 通常は白背景
   document.body.style.backgroundColor = "white";
 
-  // シーズン3・残り3週
-  if (season === 3 && weeks === 3) {
+  // シーズン3・残り4週
+  if (season === 3 && weeks === 4) {
     document.body.style.backgroundColor = "#9DD89D";
   }
 
-  // シーズン4・残り6週
-  if (season === 4 && weeks === 6) {
+  // シーズン4・残り7週
+  if (season === 4 && weeks === 7) {
     document.body.style.backgroundColor = "#9DD89D";
   }
 }
